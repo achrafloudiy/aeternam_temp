@@ -66,9 +66,9 @@ h4:before {
 ==================================================*/
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', sans-serif !important;
     color: #f3f3f3 !Important;
-    font-size: 1.4vw;
+    font-size: 1.9vw !important;
     line-height: 1vw;
 }
 
@@ -1062,8 +1062,8 @@ a.bit-button.bit-track-button.bit-offers
 {
     border-top: 1px solid #C5B358;
     background-color:#000000;
-    padding-bottom: 4vw;
     padding-top: 2vw;
+    padding-bottom:100%;
 }
 
 #designer
