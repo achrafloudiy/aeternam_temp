@@ -266,7 +266,51 @@ header {
 /* music section
 ==================================================*/
 
+/* music section
+==================================================*/
+.mu-listen{
+	display: inline;
+}
+
+.mu-listen a {
+	display: inline-block;
+    font-size: 4.5vw;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0px 15%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    color: #fff;
+}
+
+.mu-listen a:hover
+{
+    color: #C5B358;
+    border-color: #C5B358;
+}
+
+.listen ul { 
+    text-align: center;
+    display: inline-block;
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+  }
+  .listen li { 
+    display: table-cell;
+    position: relative;
+    padding-right: 10px;
+  }
+
+  .listen {text-align: center;} 
+
+  .tabs-inner .widget ul {margin-right: 0px; margin-left: 0px;}
+
 #music {
+    padding: 5vw 0;
     background-color: #000;
 }
 
@@ -290,6 +334,7 @@ header {
     padding-right:1vw;
     padding-bottom:1vw;
 }
+
 
 /* videos section
 ==================================================*/
@@ -912,12 +957,12 @@ fieldset {
 
 .section-title
 {
-    padding-top: 10%;
     color: #C5B358;
     font-family: 'playfair display', serif;
     text-transform: uppercase;
     text-shadow: 2px 3px 4px #000000;
     text-align: center;
+    font-size:4vw;
 }
 
 .outnow
@@ -926,6 +971,7 @@ fieldset {
     text-transform: uppercase;
     color:#ffffff;
     text-align: center;
+    font-size: 3.3vw;
 }
 
 /*slider*/
