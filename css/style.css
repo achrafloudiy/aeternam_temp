@@ -808,6 +808,9 @@ fieldset {
     transform: scale(0)!important;
 }
 
+#footer{
+    padding-bottom: 50vw!important;
+}
 }
 
 @media (max-width: 300px) {
@@ -1063,7 +1066,7 @@ a.bit-button.bit-track-button.bit-offers
     border-top: 1px solid #C5B358;
     background-color:#000000;
     padding-top: 2vw;
-    padding-bottom:100%;
+    padding-bottom: 2vw;
 }
 
 #designer
